@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Robo Viper(beta)</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_paired_devices">PerangkatTerpasang</string>
+    <string name="title_other_devices">Perangkat Lain Yang Tersedia </string>
+    <string name="button_scan">Mencari Perangkat</string>
+    <string name="select_device">Pilih Perangkat</string>
+    <string name="none_found">Tidak Ditemukan Perangkat Tersedia</string>
+    <string name="scanning">Mencari Perangkat...</string>
+    <string name="none_paired">Tidak Ada Perangkat Terpasang</string>
+    <string name="title_connecting">  Menyambungkan...</string>
+    <string name="title_not_connected">  Tidak ada perangkat tersambung</string>
+    <string name="bt_not_enabled">Bluetooth tidak aktif</string>
+    <string name="title_connected">  Tersambung ke : </string>
+    
+    <string name="instructions">Add an image. Then press on image to drag it. Drop it on the grid.</string>
+    <string name="hello">Add an image. Then drag it onto the grid.</string>
+    <integer name="num_images">9</integer>
+    <integer name="num_columns">3</integer>
+</resources> 

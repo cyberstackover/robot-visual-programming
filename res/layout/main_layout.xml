@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dragmanagements.DragLayer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.android.launcher"
+    android:id="@+id/drag_layer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentlayout"  
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+</LinearLayout>
+<ImageView
+        android:id="@+id/exit"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="top|right"
+        android:src="@drawable/exit" />
+
+<dragmanagements.DeleteZone
+    android:id="@+id/delete_zone_view"
+    android:layout_width="80dp" 
+    android:layout_height="80dp" 
+    android:layout_gravity="bottom|left"
+    android:layout_marginLeft="10dp"
+    android:layout_marginBottom="20dp"
+    android:src="@drawable/delete_zone"
+/>
+ </dragmanagements.DragLayer>

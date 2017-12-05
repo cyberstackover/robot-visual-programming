@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#ffffff"
+    android:layout_height="wrap_content" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal" 
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+		
+		<EditText
+		    android:id="@+id/register_nama"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_below="@+id/imageView1"
+		    android:layout_margin="10dp"
+		    android:ems="10"
+		    android:hint="nama"
+		    android:inputType="textPersonName"
+		    android:textColorHint="#8CCEFF" >
+
+        </EditText>	
+        
+        <EditText
+            android:id="@+id/login_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView1"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="username"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#8CCEFF" >
+
+        </EditText>			
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+        <EditText
+            android:id="@+id/register_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/imageView1"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="username"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#8CCEFF" >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/username"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColorHint="#8CCEFF" />
+        
+        </TableRow>
+
+       <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/username"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColorHint="#8CCEFF" />
+        
+        
+		    <Button
+		        android:id="@+id/login"
+		        android:layout_width="match_parent"
+		        android:layout_height="50dp"
+		        android:layout_margin="10dp"
+		        android:background="#2A98DB"
+		        android:text="Login"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:textColor="#ffffff" />
+        
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+		    <Button
+		        android:id="@+id/register"
+		        android:layout_width="match_parent"
+		        android:layout_height="50dp"
+		        android:layout_margin="10dp"
+		        android:background="#2A98DB"
+		        android:text="Register"
+		        android:textAppearance="?android:attr/textAppearanceMedium"
+		        android:textColor="#ffffff" />
+
+        </TableRow>
+    </TableLayout>
+    
+</LinearLayout>
+</ScrollView>

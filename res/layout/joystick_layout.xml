@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/lib/joystick"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#2C3E50"
+    tools:context=".JoystickActivity" >
+
+    <ImageView
+        android:id="@+id/logojoystick"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/center_icon"
+        android:layout_gravity="center" />
+    
+    <RelativeLayout 
+	    android:id="@+id/RelativeLayout1"
+	    android:layout_width="300dp"
+	    android:layout_height="300dp"
+	    android:layout_margin="20dp"
+	    android:layout_gravity="center|left"
+    	android:orientation="horizontal" 
+	    >
+
+		<ImageView
+		    android:id="@+id/joystickup"
+		    android:layout_width="100dp"
+		    android:layout_height="100dp"
+		    android:layout_alignParentTop="true"
+		    android:layout_centerHorizontal="true"
+		    android:src="@drawable/maju_highlights" />
+
+		<ImageView
+		    android:id="@+id/joystickleft"
+		    android:layout_width="100dp"
+		    android:layout_height="100dp"
+		    android:layout_alignParentLeft="true"
+		    android:layout_centerVertical="true"
+		    android:src="@drawable/belki_highlights" />
+
+		<ImageView
+		    android:id="@+id/joystickright"
+		    android:layout_width="100dp"
+		    android:layout_height="100dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@+id/joystickup"
+		    android:src="@drawable/belka_highlights" />
+
+		<ImageView
+		    android:id="@+id/joystickdown"
+		    android:layout_width="100dp"
+		    android:layout_height="100dp"
+		    android:layout_alignParentBottom="true"
+		    android:layout_toRightOf="@+id/joystickleft"
+		    android:src="@drawable/mundur_highlights" />
+
+	</RelativeLayout>
+	
+	<RelativeLayout 
+	    android:id="@+id/RelativeLayout1"
+	    android:layout_width="300dp"
+	    android:layout_height="300dp"
+	    android:layout_margin="20dp"
+	    android:layout_gravity="center|right"
+    	android:orientation="horizontal" 
+	    >
+
+		<ImageView
+		    android:id="@+id/joystickupper"
+		    android:layout_width="100dp"
+		    android:layout_height="100dp"
+		    android:layout_alignParentTop="true"
+		    android:layout_centerHorizontal="true"
+		    android:src="@drawable/ambil_highlights" />
+
+		<ImageView
+		    android:id="@+id/joysticklefter"
+		    android:layout_width="100dp"
+		    android:layout_height="100dp"
+		    android:layout_alignParentLeft="true"
+		    android:layout_centerVertical="true"
+		    android:src="@drawable/taruh_highlights" />
+
+		<ImageView
+		    android:id="@+id/joystickrighter"
+		    android:layout_width="100dp"
+		    android:layout_height="100dp"
+		    android:layout_alignParentRight="true"
+		    android:layout_below="@+id/joystickupper"
+		    android:src="@drawable/suara_highlights" />
+
+		<ImageView
+		    android:id="@+id/joystickdowner"
+		    android:layout_width="100dp"
+		    android:layout_height="100dp"
+		    android:layout_alignParentBottom="true"
+		    android:layout_toRightOf="@+id/joysticklefter"
+		    android:src="@drawable/waktu_highlights" />
+
+	</RelativeLayout>
+	
+	
+</FrameLayout>
